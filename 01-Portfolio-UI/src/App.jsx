@@ -1,6 +1,11 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero"
 function  App(){
   return (
-    <h1> Personal UI Portfolio </h1>
+    <> <Navbar/>
+     <Hero/>
+     </>
+    
   )
 }
 export default App;
